@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className='red-rectangle-header'>
       <NavLink to='/' >
-        <img className='header-img' src="img/logo-pokedex.svg" alt="" />
+        <img className='header-img' src="/public/img/logo-pokedex.svg" alt="" />
       </NavLink>
       <div className='black-rectangle-header'></div>
       <div className='circle-ext-header'>
