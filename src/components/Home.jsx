@@ -22,7 +22,7 @@ const Home = () => {
     <div className='home__container'>
       <div className='capa'>
         <div className='home__content'>
-          <img src="public/img/logo-pokedex.svg" alt="image home" />
+          <img src="/public/img/logo-pokedex.svg" alt="image home" />
           <h2 className='home__title'>Hi, trainer</h2>
           <p className='home__paragraph'>To start give me your name</p>
           <form onSubmit={handleSubmit} className='home__form'>
