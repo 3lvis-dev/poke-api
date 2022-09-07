@@ -2,6 +2,8 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import { setNameTrainer } from '../store/slices/nameTrainer.slice'
+import '/public/img/logo-pokedex.svg'
+
 
 const Home = () => {
   const dispatch = useDispatch()

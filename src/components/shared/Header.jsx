@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './style/header.css'
+import '/public/img/logo-pokedex.svg'
 
 const Header = () => {
   return (
