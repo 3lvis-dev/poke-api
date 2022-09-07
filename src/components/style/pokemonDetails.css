@@ -1,0 +1,219 @@
+/* < ========== POKEMON DETAILS PAGE ========== > */
+/* < ---------- Card Detail ---------- > */
+.card__detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+  position: relative;
+}
+.card-detail-back {
+  position: absolute;
+  top: 3.3rem;
+  left: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: .1rem solid;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.bx-arrow-back {
+  padding: .8rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.card__body-name {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+}
+
+.card__detail header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.card__body-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 50%;
+  height: 6rem;
+  gap: 1rem;
+  font-size: 1.4rem;
+}
+
+.card__body-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.card__body-value {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.card__body-item {
+  font-size: 1.4rem;
+  color: darkgrey;
+}
+
+.card__detail-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  height: 10rem;
+  gap: 1rem;
+}
+
+.card__detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 100%;
+  gap: 1rem;
+}
+
+.card__detail-title {
+  font-size: 2rem;
+}
+
+.card__detail-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40%;
+}
+
+.card__detail-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #FFF;
+}
+
+.card__detail-item span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+.card__detail-item span:nth-child(1) {
+  background-color: green;
+}
+.card__detail-item span:nth-child(2) {
+  background-color: blueviolet;
+}
+/* < ---------- Card Detail END ---------- > */
+
+
+
+/* < ---------- Cards STAT ---------- > */
+.card__stat-detail {
+  background-color: #0C0C0C;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  width: 100%;
+}
+
+.card__stat-detail-title {
+  text-align: center;
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #FFF;
+}
+
+.card__stat-detail-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 2rem;
+  max-width: 900px;
+  width: 80%;
+  height: 30rem;
+  gap: 1rem;
+}
+
+.card__stat-detail-value {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.card__stat-detail-name {
+  font-size: 1.8rem;
+  color: darkgrey;
+}
+/* < ---------- Cards STAT END---------- > */
+
+
+
+/* < ---------- Movements ---------- > */
+.card__detail-movement-container{
+  width: 100%;
+}
+.card__detail-movement {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.card__detail-movement-title {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.card__detail-movement-info-item {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  box-shadow: var(--shadow-elevation-medium);
+  padding: 0.3rem 0.5rem;
+  gap: 1rem;
+}
+
+.card__detail-movement-info-item span {
+  background: rgba(114,110,110,.573);
+  box-shadow: var(--shadow-elevation-medium);
+  padding: 0.3em 0.5em;
+  border-radius: 2em;
+  font-size: 2rem;
+}
+
+.card__detail-movement-info-item span:hover {
+  background: rgba(114,110,110,.256);
+}
+/* < ---------- Movements END ---------- > */
